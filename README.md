@@ -71,7 +71,7 @@ Thank you to the below people, for making this project possible.
 ## Authorship
 A code project by Wong Jo-Hann
 
-Creative Making Experience and Physical Computing
+23/24 Creative Making Experience and Physical Computing
 
 Creative Computing BSc class
 
