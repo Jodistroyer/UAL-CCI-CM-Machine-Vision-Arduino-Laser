@@ -34,12 +34,14 @@ This is because of: <https://stackoverflow.com/questions/74585622/pyfirmata-give
 **The Quick Fix Is:**  
 Open up the debug console and click on the link which says something like `(C:\Python312\Lib\site-packages\pyfirmata\pyfirmata.py)`. The link will send you to the pyfirmata code. As of writing this, it should send you to line 185 of `pyfirmata.py`. 
 
-The error message will look something like the below:
+The error message will look something like:
+
   File "C:\Python312\Lib\site-packages\pyfirmata\pyfirmata.py", line 185, in add_cmd_handler
     len_args = len(inspect.getargspec(func)[0])
                    ^^^^^^^^^^^^^^^^^^
 
-So go to line 185, and then replace
+**So go to line 185, and then replace**
+
 len_args = len(inspect.getargspec(func)[0])
 with
 len_args = len(inspect.getfullargspec(func).args)
@@ -47,7 +49,7 @@ len_args = len(inspect.getfullargspec(func).args)
 Rerun the code and it should work. 
 
 
-**Acknowledgements:**  
+## Acknowledgements:  
 Thank you to the below people, for making this project possible.
 
 **Computer Vision With Arduino | 2 Hour Course | OpenCV Python**  
