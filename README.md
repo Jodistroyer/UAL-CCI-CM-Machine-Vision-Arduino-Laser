@@ -67,3 +67,9 @@ Thank you to the below people, for making this project possible.
 **Face Distance Measurement with a Normal Webcam | Computer Vision**  
 *(Murtaza's Workshop - Robotics and AI)*  
 <https://www.youtube.com/watch?v=jsoe1M2AjFk>
+
+## Authorship
+A code project by Wong Jo-Hann
+Creative Making Experience and Physical Computing
+Creative Computing BSc class
+UAL CCI University Of the Arts London
