@@ -11,6 +11,8 @@
 3. **pyFirmata 1.1.0** (is used for python to Arduino communication)
 4. **pygame 2.5.2** (is used for PC to play sound when face detected)
 
+Open and run facetracking-depth-main.py
+
 **PS:** If you have OBS Studios or similar software Installed, make sure that you open the application, and Start Virtual Camera is on while running this project. Or else it won’t be able to open your webcam.
 
 ## Features
