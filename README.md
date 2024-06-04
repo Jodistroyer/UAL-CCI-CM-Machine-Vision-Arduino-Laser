@@ -13,20 +13,21 @@
 
 **PS:** If you have OBS Studios or similar software Installed, make sure that you open the application, and Start Virtual Camera is on while running this project. Or else it won’t be able to open your webcam.
 
-**Features:**
+## Features
 1. Face tracking with lasers
 2. Algorithms for more accurate face tracking
 3. Depth perception so that if there are multiple faces, it will focus only the nearest one
 
-This project mixes both Haarcascade and OpenCV Machine Vision.  
-**Haarcascade** is good at detecting objects in images irrespective of their scale in image and location.  
+## This project mixes both Haarcascade and OpenCV Machine Vision.  
+Haarcascade is good at detecting objects in images irrespective of their scale in image and location.  
 But a problem faced by using only Haarcascade is:  
+
 A. It needs a wide skin patch for a successful detection. (Small patches won’t work well.)  
 B. Haar cascades are usually trained only on frontal face images. (Covered faces won’t work.)
 
 **SO mixing it with deep learning models will allow various face angles and better detection of side profiles.**
 
-**Debugging:**
+## Debugging:
 You may get an error saying pyFirmata gives error: module 'inspect' has no attribute 'getargspec'  
 This is because of: <https://stackoverflow.com/questions/74585622/pyfirmata-gives-error-module-inspect-has-no-attribute-getargspec>
 
