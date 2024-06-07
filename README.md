@@ -10,8 +10,12 @@
 2. **mediapipe 0.10.14** (is used for computer vision)
 3. **pyFirmata 1.1.0** (is used for python to Arduino communication)
 4. **pygame 2.5.2** (is used for PC to play sound when face detected)
+5. **Arduino IDE 2.3.2** (is used for Arduino to understand Python code)
 
-Open and run facetracking-depth-main.py
+**How to run**
+1. Before you start, go to Arduino IDE. Then go to File > Examples > Firmata > StandardFirmata
+2. Click on StandardFirmata and upload this code to your arduino. This is so that the Arduino can be programmable using python.
+3. Open Pycharm IDE and run facetracking-depth-main.py
 
 **PS:** If you have OBS Studios or similar software Installed, make sure that you open the application, and Start Virtual Camera is on while running this project. Or else it won’t be able to open your webcam.
 
